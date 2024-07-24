@@ -1,0 +1,16 @@
+.cart-widget {
+    display: flex;
+    align-items: center;
+    cursor: pointer; 
+}
+
+.cart-widget img {
+    width: 24px;
+    height: 24px; 
+    margin-right: 8px; 
+}
+
+.cart-widget span {
+    font-size: 18px; 
+    color: #333; 
+}
