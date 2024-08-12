@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import NavBar from './components/NavBar';
-import ItemListContainer from './components/ItemListContainer';
-import ItemDetailContainer from './components/ItemDetailContainer';
-import NotFound from './components/NotFound';
+import NavBar from './components/NavBar/NavBar.jsx';
+import ItemListContainer from './components/ItemListContainer/ItemListContainer.jsx';
+import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer.jsx';
+import NotFound from './components/NotFound/NotFound.jsx';
 
 const AppRouter = () => {
   return (

@@ -2,12 +2,12 @@ import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import ItemDetail from '../ItemDetail/ItemDetail';
 
-import cremaHumectanteImg from '../assets/crema-humectante.jpg';
-import locionFacialImg from '../assets/locion-facial.jpg';
-import balsamoLabialImg from '../assets/balsamo-labial.jpg';
-import contornoOjosImg from '../assets/contorno-ojos.jpg';
-import mascarillaImg from '../assets/mascarilla.jpg';
-import serumImg from '../assets/serum.jpg';
+import cremaHumectanteImg from '../../assets/crema-humectante.jpg';
+import locionFacialImg from '../../assets/locion-facial.jpg';
+import balsamoLabialImg from '../../assets/balsamo-labial.jpg';
+import contornoOjosImg from '../../assets/contorno-ojos.jpg';
+import mascarillaImg from '../../assets/mascarilla.jpg';
+import serumImg from '../../assets/serum.jpg';
 
 const ItemDetailContainer = () => {
   const { itemId } = useParams(); 
