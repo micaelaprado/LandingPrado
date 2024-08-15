@@ -1,0 +1,42 @@
+.item-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .item-detail h2 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .item-detail img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .item-detail p {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  .item-detail button {
+    padding: 0.8rem 1.2rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .item-detail button:hover {
+    background-color: #0056b3;
+  }
