@@ -1,10 +1,13 @@
 import React from 'react';
 import "./ItemList.css"
+import Item from '../Item/Item.jsx';
 
-const ItemList = () => {
+const ItemList = ({ items }) => {
   return (
-    <div>
-      {}
+    <div className="item-list">
+      {items.map(item => (
+        <Item key={item.id} item={item} />
+      ))}
     </div>
   );
 };
