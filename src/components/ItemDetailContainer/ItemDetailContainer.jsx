@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import ItemDetail from '../ItemDetail/ItemDetail';
-import "./ItemDetailContainer.css"
+import "./ItemDetailContainer.css";
+import { CartContext } from '../../CartContext';
 
 import cremaHumectanteImg from '../../assets/crema-humectante.jpg';
 import locionFacialImg from '../../assets/locion-facial.jpg';

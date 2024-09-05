@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { getFirestore, collection, getDocs } from 'firebase/firestore';
-import Loader from './Loader';  
+import Loader from '../Loader/Loader';  
 
 const ItemListContainer = () => {
     const [products, setProducts] = useState([]);
